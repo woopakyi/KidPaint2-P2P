@@ -48,19 +48,19 @@ The KidPaint app in this project builds network features for multi-user collabor
 ## Screenshots
 
 - **Studio Selection**:
-![Studio Selection](images/studio-selection.png)
+    ![Studio Selection](images/studio-selection.png)
 
 - **Tool Selection**:
-![Tool Selection](images/tool-selection.png)
+    ![Tool Selection](images/tool-selection.png)
 
 - **Colour Palette**:
-![Colour Palette](images/colour-palette.png)
+    ![Colour Palette](images/colour-palette.png)
 
 - **Emojis/Stickers**:
-![Emojis](images/emojis.png)
+    ![Emojis](images/emojis.png)
 
 - **Admin Control**:
-![Admin Control](images/admin-control.png)
+    ![Admin Control](images/admin-control.png)
 
 
 ## Acknowledgments
