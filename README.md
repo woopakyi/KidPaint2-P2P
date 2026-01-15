@@ -1,13 +1,12 @@
 # KidPaint2: Peer-to-Peer Collaborative Drawing App
 
 ## Overview
-
 KidPaint2 is an enhanced version of a simple paint application designed for kids. The core functionality allows multiple users to collaboratively draw on shared canvases over a local network using a peer-to-peer (P2P) architecture. Users can create or join "studios" (separate drawing sessions), synchronize sketches in real-time, chat with others in the same studio, and utilize additional tools for an engaging experience.
 
 The KidPaint app in this project builds network features for multi-user collaboration, including UDP broadcasting for studio discovery and TCP connections for data synchronization. It supports differential updates for efficient drawing synchronization and confines interactions to specific studios, enabling isolated group collaborations on the same local subnet.
 
-## Key Features
 
+## Key Features
 ### Core Networking (Peer-to-Peer Approach)
 - **Studio Creation and Joining**: Users can create new studios or join existing ones discovered via UDP broadcasting.
 - **Real-Time Synchronization**: Drawing updates, chat messages, and canvas changes are broadcast only to users in the same studio.
@@ -21,10 +20,12 @@ The KidPaint app in this project builds network features for multi-user collabor
 - **Extended Colour Palette**: Access additional colors via a "More" button, customizable in HSB, RGB, or Hex formats.
 - **Admin Control**: Studio creators (admins) can view participant lists and kick disruptive users.
 
+
 ## Technologies Used
 - **Language**: Java
 - **IDE**: IntelliJ
 - **Networking**: UDP for discovery, TCP for data transfer
+
 
 ## How to Run
 1. **Prerequisites**: Ensure all devices are on the same local subnet. Java Runtime Environment (JRE) is required.
@@ -43,7 +44,9 @@ The KidPaint app in this project builds network features for multi-user collabor
 
 **Note**: The app does not require manual IP/port input; discovery is automatic via UDP.
 
+
 ## Screenshots
+
 - **Studio Selection**:
 ![Studio Selection](images/studio-selection.png)
 
@@ -59,10 +62,6 @@ The KidPaint app in this project builds network features for multi-user collabor
 - **Admin Control**:
 ![Admin Control](images/admin-control.png)
 
-## License
-This project is for educational purposes only. No license is specified; feel free to use it as a reference for learning networking concepts in Java.
 
 ## Acknowledgments
 Based on the original KidPaint app provided for the COMP3015 course. Thanks to the course instructors for the project guidelines.
-
-For any issues or questions, contact the group leader.
