@@ -2,9 +2,9 @@
 
 ## Overview
 
-KidPaint2 is an enhanced version of a simple paint application designed for kids, developed as part of the COMP3015 Data Communications and Networking course project for 2025-26. The core functionality allows multiple users to collaboratively draw on shared canvases over a local network using a peer-to-peer (P2P) architecture. Users can create or join "studios" (separate drawing sessions), synchronize sketches in real-time, chat with others in the same studio, and utilize additional tools for an engaging experience.
+KidPaint2 is an enhanced version of a simple paint application designed for kids. The core functionality allows multiple users to collaboratively draw on shared canvases over a local network using a peer-to-peer (P2P) architecture. Users can create or join "studios" (separate drawing sessions), synchronize sketches in real-time, chat with others in the same studio, and utilize additional tools for an engaging experience.
 
-This project builds on the original KidPaint app by adding network features for multi-user collaboration, including UDP broadcasting for studio discovery and TCP connections for data synchronization. It supports differential updates for efficient drawing synchronization and confines interactions to specific studios, enabling isolated group collaborations on the same local subnet.
+The KidPaint app in this project builds network features for multi-user collaboration, including UDP broadcasting for studio discovery and TCP connections for data synchronization. It supports differential updates for efficient drawing synchronization and confines interactions to specific studios, enabling isolated group collaborations on the same local subnet.
 
 ## Key Features
 
@@ -23,9 +23,8 @@ This project builds on the original KidPaint app by adding network features for 
 
 ## Technologies Used
 - **Language**: Java
-- **Networking**: UDP for discovery, TCP for data transfer (using InputStream, OutputStream, etc., as per project constraints).
-- **IDE**: IntelliJ (required for development).
-- **Restrictions**: No 3rd-party plugins, no ObjectInputStream/ObjectOutputStream; limited to specified stream classes.
+- **IDE**: IntelliJ
+- **Networking**: UDP for discovery, TCP for data transfer
 
 ## How to Run
 1. **Prerequisites**: Ensure all devices are on the same local subnet. Java Runtime Environment (JRE) is required.
@@ -41,16 +40,24 @@ This project builds on the original KidPaint app by adding network features for 
 4. **Save/Load**:
    - Click "Save" to store the sketch locally.
    - Click "Load" to upload a saved file, syncing it to the studio.
-5. **Testing**: For demonstration, use multiple instances on lab computers or virtual machines to simulate network interactions.
 
 **Note**: The app does not require manual IP/port input; discovery is automatic via UDP.
 
 ## Screenshots
-- **Studio Selection**: ![Studio Selection](images/studio-selection.png)
-- **Tool Selection**: ![Tool Selection](images/tool-selection.png)
-- **Colour Palette**: ![Colour Palette](images/colour-palette.png)
-- **Emojis/Stickers**: ![Emojis](images/emojis.png)
-- **Admin Control**: ![Admin Control](images/admin-control.png)
+- **Studio Selection**:
+![Studio Selection](images/studio-selection.png)
+
+- **Tool Selection**:
+![Tool Selection](images/tool-selection.png)
+
+- **Colour Palette**:
+![Colour Palette](images/colour-palette.png)
+
+- **Emojis/Stickers**:
+![Emojis](images/emojis.png)
+
+- **Admin Control**:
+![Admin Control](images/admin-control.png)
 
 ## License
 This project is for educational purposes only. No license is specified; feel free to use it as a reference for learning networking concepts in Java.
