@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="StickerEmojiWindowController" spacing="10" style="-fx-padding: 10;">
+
+    <Label text="Send Stickers"/>
+
+    <ScrollPane fitToWidth="true" maxHeight="100">
+        <content>
+            <HBox spacing="10" fx:id="stickerBox" />
+        </content>
+    </ScrollPane>
+
+    <Separator/>
+
+    <Label text="Insert Emojis"/>
+
+    <ScrollPane prefHeight="150" prefWidth="300" fitToWidth="true">
+        <content>
+            <FlowPane fx:id="emojiFlow" hgap="5" vgap="5" />
+        </content>
+    </ScrollPane>
+
+    <Button text="Close" onAction="#onClose"/>
+</VBox>

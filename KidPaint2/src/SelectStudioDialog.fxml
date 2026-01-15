@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" spacing="10">
+    <padding>
+        <Insets top="10.0" right="10.0" bottom="10.0" left="10.0" />
+    </padding>
+    <Label text="Available Studios:" />
+    <ListView fx:id="listViewStudios" prefHeight="200" />
+    <Label fx:id="lblNoStudios" text="No studios found. Create a new one?" visible="false" />
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Button fx:id="btnJoin" text="Join Selected" />
+        <Button fx:id="btnCreate" text="Create New Studio" />
+    </HBox>
+</VBox>
