@@ -48,9 +48,9 @@ The KidPaint app in this project builds network features for multi-user collabor
 ## How to Run
 1. **Prerequisites**: Ensure all devices are on the same local subnet. Java Runtime Environment (JRE) is required.
 2. **Launch the Application**:
-   - Run `KidPaint` on multiple computers.
-   - Enter a username when prompted.
-   - Choose to join an existing studio (select from discovered list and click "Join Selected") or create a new one (enter studio name).
+   - Clone `KidPaint2` on multiple computers and open the file with SDK 1.8.
+   - Run `KidPaint.java` which is located in `KidPaint2/scr/KidPaint.java`
+   - Choose to join an existing studio (select from discovered list and click "Join Selected") or create a new one.
 3. **Drawing and Collaboration**:
    - Select tools (pen, bucket, eraser, rectangle) from the dropdown.
    - Draw on the canvas; changes sync in real-time.
