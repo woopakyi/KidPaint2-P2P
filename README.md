@@ -6,6 +6,24 @@ KidPaint2 is an enhanced version of a simple paint application designed for kids
 The KidPaint app in this project builds network features for multi-user collaboration, including UDP broadcasting for studio discovery and TCP connections for data synchronization. It supports differential updates for efficient drawing synchronization and confines interactions to specific studios, enabling isolated group collaborations on the same local subnet.
 
 
+## Screenshots
+
+- **Studio Selection**:
+  - ![Studio Selection](images/studio-selection.png)
+
+- **Tool Selection**:
+  - ![Tool Selection](images/tool-selection.png)
+
+- **Colour Palette**:
+  - ![Colour Palette](images/colour-palette.png)
+
+- **Emojis/Stickers**:
+  - ![Emojis](images/emojis.png)
+
+- **Admin Control**:
+  - ![Admin Control](images/admin-control.png)
+
+
 ## Key Features
 ### Core Networking (Peer-to-Peer Approach)
 - **Studio Creation and Joining**: Users can create new studios or join existing ones discovered via UDP broadcasting.
@@ -43,24 +61,6 @@ The KidPaint app in this project builds network features for multi-user collabor
    - Click "Load" to upload a saved file, syncing it to the studio.
 
 **Note**: The app does not require manual IP/port input; discovery is automatic via UDP.
-
-
-## Screenshots
-
-- **Studio Selection**:
-  - ![Studio Selection](images/studio-selection.png)
-
-- **Tool Selection**:
-  - ![Tool Selection](images/tool-selection.png)
-
-- **Colour Palette**:
-  - ![Colour Palette](images/colour-palette.png)
-
-- **Emojis/Stickers**:
-  - ![Emojis](images/emojis.png)
-
-- **Admin Control**:
-  - ![Admin Control](images/admin-control.png)
 
 
 ## Acknowledgments
