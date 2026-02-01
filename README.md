@@ -63,5 +63,13 @@ The KidPaint app in this project builds network features for multi-user collabor
 **Note**: The app does not require manual IP/port input; discovery is automatic via UDP.
 
 
+## Team
+This project was developed collaboratively by:
+
+- [Woo Pak Yi](https://github.com/woopakyi) —  tool palette, Chat & emoji/sticker system, admin controls, save/load features, UI/UX enhancements, overall app polish
+- [Hau Ching Haye](https://github.com/hillaryhau) — UDP connection, TCP real-time sync of chat room & canvas, studio isolation, decentralized server
+- Yuen Pui Pui — testing, documentation, video demo
+
+
 ## Acknowledgments
 Based on the original KidPaint app provided for the COMP3015 course. Thanks to the course instructors for the project guidelines.
